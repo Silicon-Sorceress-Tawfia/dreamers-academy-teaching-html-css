@@ -1,0 +1,41 @@
+/* Styling the table */
+table {
+    border-collapse: collapse; /* Merges adjacent cell borders for a clean look */
+    width: 80%; /* Makes the table occupy 80% of the page width */
+    margin: 20px auto; /* Centers the table horizontally */
+    font-family: Arial, sans-serif; /* Sets a clean and modern font */
+    text-align: center; /* Aligns all text in the center */
+}
+
+/* Styling the table headers */
+th {
+    background-color: #4CAF50; /* Green background for headers */
+    color: white; /* White text color for headers */
+    padding: 15px; /* Adds spacing inside each header cell */
+    font-size: 18px; /* Increases the font size for headers */
+    border: 1px solid #ddd; /* Adds a border around the header cells */
+}
+
+/* Styling the table cells */
+td {
+    padding: 12px; /* Adds spacing inside each cell */
+    font-size: 16px; /* Sets a slightly smaller font size for cell text */
+    border: 1px solid #ddd; /* Adds a light gray border around each cell */
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray background for even-numbered rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd-numbered rows */
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #e8f5e9; /* Light green background when hovering over a row */
+}
+
+
+
